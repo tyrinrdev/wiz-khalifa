@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkgreen;
+}
+
+/*--------------------------------------------header*/  
+
+ul {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    text-transform: uppercase;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#wiz {
+    height: 600px;
+    width: 100%;
+    background: url("../images/wizcartoon.jpg") no-repeat center center;
+   
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+nav li {
+    float: right;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    border-bottom: 1px solid darkgreen;
+}
+
+.purpose {
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color:rgba(0,0,0,0.3);
+    bottom: 30px;
+    right: 120px;
+    left: 0px;
+    position: absolute;
+    
+}
+
+.purpose, .puropse h2 {
+    color: #ffffff;
+}
+
+/* form */
+
+
+.signup-form{
+  margin-top: 150px;
+  color: #fff;
+  background: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  float: left;
+  padding: 30px 30px 30px 30px;
+  left: 10%;
+}
+
+.signup-form h2{
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+.gallery img {
+width: 100%;
+}
+
+.bgwiz {
+background-image: url(/assets/images/wiz-khalifa.jpg);
+background-size: cover;
+}
+
+.text{
+    color: darkgreen;
+}
+
+
+/*--------------------------------------------logo*/
+
