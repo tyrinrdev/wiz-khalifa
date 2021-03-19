@@ -57,8 +57,19 @@ nav a {
     color: inherit;
 }
 
+li.nav-item {
+    color: red;
+}
+
 nav a:hover {
     border-bottom: 1px solid darkgreen;
+    color: inherit;
+    text-decoration: none;
+}
+
+ul .wizlink {
+    margin-left: 26em;
+    margin-top: 5px;
 }
 
 .purpose {
@@ -70,7 +81,7 @@ nav a:hover {
     height: 200px;
     padding-top: 20px;
     padding-left: 10px;
-    background-color:rgba(0,0,0,0.3);
+    /* background-color:rgba(0,0,0,0.3); */
     bottom: 30px;
     right: 120px;
     left: 0px;
@@ -78,7 +89,7 @@ nav a:hover {
     
 }
 
-.purpose, .puropse h2 {
+.purpose, .purpose h2 {
     color: #ffffff;
 }
 
@@ -86,19 +97,19 @@ nav a:hover {
 
 
 .signup-form{
-  margin-top: 150px;
-  color: #fff;
-  background: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute;
-  float: left;
-  padding: 30px 30px 30px 30px;
-  left: 10%;
+    margin-top: 150px;
+    color: #fff;
+    background: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    float: left;
+    padding: 30px 30px 30px 30px;
+    left: 10%;
 }
 
 .signup-form h2{
-  color: #fafafa;
-  margin-bottom: 20px;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .gallery {
@@ -109,13 +120,15 @@ nav a:hover {
 }
 
 .gallery img {
-width: 100%;
+	width: 100%;
 }
 
 .bgwiz {
-background-image: url(../images/wiz-khalifa.jpg);
-background-size: cover;
+    background-image: url(../images/wiz-khalifa.jpg);
+    background-size: cover;
+    background-position: 0px 62px;
 }
+
 
 .text{
     color: darkgreen;
