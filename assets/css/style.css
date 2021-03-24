@@ -19,6 +19,24 @@ h2 {
     color: darkgreen;
 }
 
+section {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+section.about-wiz {
+    text-align: center;
+}
+
+section.title {
+    text-align: center;
+}
+
+.bio-pic {
+    height: 45%;
+    width: 45%;
+}
+
 /*--------------------------------------------header*/  
 
 ul {
@@ -103,7 +121,7 @@ ul .wizlink {
     max-width: 400px;
     position: absolute;
     float: left;
-    padding: 30px 30px 30px 30px;
+    padding: 30px;
     left: 10%;
 }
 
