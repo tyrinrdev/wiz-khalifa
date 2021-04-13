@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777
+    color: #777777;
 }
 
 h2 {
@@ -29,13 +29,14 @@ section.about-wiz {
 }
 
 section.title {
-    text-align: center;
+    text-align: center; 
+    margin-top: 6em;
 }
 
-.bio-pic {
+/* .bio-pic {
     height: 45%;
     width: 45%;
-}
+} */
 
 /*--------------------------------------------header*/  
 
@@ -65,6 +66,10 @@ ul {
     animation-fill-mode: forwards;
 }
 
+/* .navbar {
+    position: fixed;
+} */
+
 nav li {
     float: right;
     margin-right: 30px;
@@ -85,10 +90,10 @@ nav a:hover {
     text-decoration: none;
 }
 
-ul .wizlink {
+/* ul .wizlink {
     margin-left: 26em;
     margin-top: 5px;
-}
+} */
 
 .purpose {
     font-size: 130%;
@@ -115,14 +120,14 @@ ul .wizlink {
 
 
 .signup-form{
-    margin-top: 150px;
+    margin-top: 1em;
     color: #fff;
     background: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
+    /* max-width: 400px; */
+    /* position: absolute; */
     float: left;
     padding: 30px;
-    left: 10%;
+    /* left: 10%; */
 }
 
 .signup-form h2{
@@ -142,16 +147,14 @@ ul .wizlink {
 }
 
 .bgwiz {
-    background-image: url(../images/wiz-khalifa.jpg);
+    background: url(../images/wiz-khalifa.jpg) no-repeat;
     background-size: cover;
     background-position: 0px 62px;
 }
 
-
 .text{
     color: darkgreen;
 }
-
 
 /*--------------------------------------------logo*/
 
